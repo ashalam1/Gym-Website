@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashfu Gym</title>
+    <link rel="icon" type="image/x-icon" href="-expander-fitness-trainer-fitness-room-gym-gymnastic-health-512-17.png">
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+            background: url('photo-1605296867304-46d5465a13f1.avif');
+            background-repeat: no-repeat;
+            background-size: 1300px 700px;
+
+        }
+        .left{
+            display:inline-block;
+            position:absolute;
+            left:40px;
+            top:5px;
+        }
+        .left div{
+            text-align: center;
+            color:rgb(234, 225, 225);
+            margin: 0%;
+        }
+        .mid{
+            display:block;
+            width: 60%;
+            margin: 20px auto;
+            
+        }
+        .right{
+            position:absolute;
+            right:35px;
+            top:20px;
+            display:inline;
+        }
+        .navbar{
+            display:inline;
+        }
+        .navbar li{
+            display:inline;
+            font-size: 25px;
+        }
+        .navbar li a{
+            color:white ;
+            text-decoration: none;
+            padding:34px 23px;
+        }
+        .navbar li a:hover, .navbar li a:hover{
+            text-decoration: underline;
+            color: antiquewhite;    
+        }
+        .left img{
+            width: 100px;
+            filter: invert(100%);
+        }
+        .btn{
+            margin:0px 9px;
+            background-color: black;
+            color: white;
+            padding: 4px 14px;
+            border:3px solid gray;
+            border-radius: 10px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .btn :hover{
+            background-color: red;
+        }
+        .container{
+            border:3px  white;
+            border-radius: 10px;
+            margin:160px 60px;
+            padding: 75;
+            width: 33%;
+        }
+        .form-grp input{
+            font-family: 'baloo bhai',cursive;
+            text-align: center;
+            text-align: center;
+            display: block;
+            width: 250px;
+            margin:8px auto ;
+            padding: 2px;
+            border-radius: 20px;
+
+        }
+        .container h1{
+          text-align: center;
+        }
+        .form-grp button{
+            display: block;
+            margin: 8px auto;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+             <img src="-expander-fitness-trainer-fitness-room-gym-gymnastic-health-512-17.png" alt="">
+
+             <div>Ashfu Fitness</div>
+        </div>
+        <!-- mid box for navbar -->
+        <div class="mid">
+          <ul class="navbar">
+           <li><a href="#">Home</a></li>
+           <li><a href="#">Fitness Calculator</a></li>
+           <li><a href="#">About Us</a></li>
+           <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+        <!-- right box for buttons -->
+        <div class="right">
+            <button class="btn">Call Us</button><button class="btn">Email Us</button>
+        
+        </div>
+
+        <div class="container">
+            <h1 style="color: white;"> Join the best gym in Fazilnagar</h1>
+            <form action="noaction.php">
+                <div class="form-grp">
+                    <input type="text" name="" placeholder="Enter Your Name">
+                    <input type="number" name="" placeholder="Enter Your Age">
+                    <input type="text" name="" placeholder="Gender">
+                    <input type="text" name="" placeholder="Enter your Weight">
+                    <button class="btn">Submit</button>
+                </div>
+            </form>
+        </div>
+       
+    </header>
+</body>
+</html>
